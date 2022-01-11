@@ -1,0 +1,31 @@
+{
+  "name": "forza-api-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to generate random images of Forza cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kyleboehlen@bitbucket.org/kyleboehlen/forza-api-bot.git"
+  },
+  "keywords": [
+    "forza",
+    "api",
+    "bot"
+  ],
+  "author": "Kyle Boehlen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://bitbucket.org/kyleboehlen/forza-api-bot/issues"
+  },
+  "homepage": "https://bitbucket.org/kyleboehlen/forza-api-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "axios": "^0.24.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.1"
+  }
+}
