@@ -1,18 +1,19 @@
-This is baby's first Discord bot.
+Baby's first Discord bot!
 
-Copy the config
+Copy the config and fill out the token:
 
 `cp config.example.json config.json`
 
-and fill out the token
+Then simply run:
 
-Simply run
+`yarn install && yarn run start`
 
-`yarn install`
+That's literally it.
 
-and
+This bot only uses the [Discord.js](https://discord.js.org/#/docs/discord.js/stable/general/welcome) library with no boilerplate or framework
 
-`yarn run start`
+The API it's calling:
 
-This bot only uses Discord.js with no boilerplate or framework
-https://discord.js.org/#/docs/discord.js/stable/general/welcome
+[Repo](https://github.com/DaneeSkripter/forza-api)
+
+[Docs](https://docs.forza-api.tk/)
