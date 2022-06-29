@@ -3,7 +3,7 @@ const { Routes } = require('discord-api-types/v9');
 
 // Token/client id
 require("dotenv").config();
-const token = process.env.TOKEN
+const token = process.env.FORZA_TOKEN
 const clientId = process.env.CLIENT_ID
 
 // Commands
